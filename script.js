@@ -1,1 +1,4 @@
-//your code here
+let text = document.getElementById("evaluatedText").innerHTML;
+let len = text.length;
+
+document.getElementById("letterCount").innerHTML = len;
